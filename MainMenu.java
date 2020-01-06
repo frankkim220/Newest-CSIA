@@ -101,6 +101,7 @@ public class MainMenu extends JFrame {
 		mntmQuit.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				writeClientFile();
+				writeCoffeeFile();
 				System.exit(0);
 			}
 		});
